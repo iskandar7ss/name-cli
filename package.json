@@ -1,0 +1,21 @@
+{
+  "name": "name-cli",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": " nodemon --env-file=.env app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "commander": "^14.0.0",
+    "figlet": "^1.8.1",
+    "prompts": "^2.4.2"
+  }
+}
